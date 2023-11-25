@@ -1,28 +1,21 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-    <head> 
-        <meta charset="UTF-8"> 
-        <meta name="viewport" content= 
-            "width=device-width, initial-scale=1.0"> 
-        <title>PONG GAME</title> 
-        <link rel="stylesheet" href="style.css"> 
-    </head> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="can">
+        <canvas id="myGame" width="800" height="500"></canvas>
+    </div>
 
-    <body> 
-        <div class="board"> 
-            <div class='ball'> 
-                <div class="ball_effect"></div> 
-            </div> 
-            <div class="paddle_1 paddle"></div> 
-            <div class="paddle_2 paddle"></div> 
-            <h1 class="player_1_score">0</h1> 
-            <h1 class="player_2_score">0</h1> 
-            <h1 class="message"> 
-                Press Enter to Play Pong 
-            </h1> 
-        </div> 
-        
-        <script src="./script.js"></script> 
-    </body> 
-
-</html> 
+    <div id="result">
+        <h1 id="win">Game Over</h1>
+        <button id="btn" onclick="location.reload()">Restart</button>
+    </div>
+    
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
