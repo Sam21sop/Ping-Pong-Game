@@ -48,7 +48,7 @@ const ball = {
     speed : 1,
     velocityX : 5,
     velocityY : 5,
-    color : "white"
+    color : "red"
 }
 
 
@@ -104,7 +104,7 @@ function collision(b, player)
 }
 
 
-// Control paddles
+ // Control paddles
 canvas.addEventListener('mousemove', movePaddles);
 function movePaddles(e) 
 {
